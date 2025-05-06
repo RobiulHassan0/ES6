@@ -30,3 +30,7 @@ console.log(sum);
 const multiply = (num1, num2) => num1 * num2;
 const result = multiply(10, 20);
 console.log(result);
+
+const division = (a, b) => a / b;
+const output = division (29, 9);
+console.log(output);
