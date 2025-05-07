@@ -45,3 +45,32 @@ console.log(employee)
 const getPi = () => Math.PI;
 const pi = getPi();
 console.log(pi);
+
+
+// when functin is larger
+const doMath = (a, b, c) => { return { sum : a + b + c, mult:  a * b * c, subtract: a - b * c}};
+const result = doMath(29, 5, 20);
+console.log(result);
+
+const makeMath = (x, y, z) => {
+    const sum = x + y + z;
+    const mult = x * y * z;
+    const result = sum + mult;
+    return result;
+} 
+const total = makeMath(8, 4, 2)
+console.log(total);
+
+const runMath = (x, y, z) => {
+    const sum = x + y + z;
+    const mult = x * y * z;
+    const result = sum + mult;
+    
+    return {
+        sum: sum,
+        multiplication : mult,
+        finalResult : result
+    };
+};
+const getTotal = runMath(8, 4, 2)
+console.log(getTotal);
