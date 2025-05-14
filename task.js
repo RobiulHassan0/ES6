@@ -5,14 +5,13 @@ const total = multiply(10, 20, 30);
 console.log(total);
 
 // B)
-const sentence = `I am a web developer.\nI love to code.\nI love to eat biryani`
+const sentence = `I am a web developer.\nI love to code.\nI love to eat biryani`;
 console.log(sentence);
 
 // C)
 const sum = (a, b=5) => a + b;
 const result = sum(5);
 console.log(result);
-
 
 
 // Practice Problem 02
@@ -43,7 +42,6 @@ const allNumbers = (calculateNumbers) => {
 }
 const final = allNumbers(numbers);
 console.log(final);
-
 
 
 // Practice Problem 03
