@@ -51,7 +51,7 @@ const num1 = [4, 5, 6, 8];
 const num2 = [23, 43, 39, 57];
 const merged = (arr1, arr2) =>{
     const mergedArray = [...arr1, ...arr2];
-    const arrMax = Math.max(...mergedArray)
+    const arrMax = Math.max(...mergedArray);
     return arrMax;
 }
 const finalResult = merged(num1, num2);
