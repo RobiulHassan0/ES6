@@ -32,4 +32,4 @@ console.log(num1)
 
 const sonkha = [5, 10, 15, 20];
 const arrMax = Math.max(numbers);
-console.log(arrayMax)
+console.log(arrayMax);
