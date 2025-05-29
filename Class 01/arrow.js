@@ -34,3 +34,4 @@ console.log(result);
 const division = (a, b) => a / b;
 const output = division (29, 9);
 console.log(output);
+
